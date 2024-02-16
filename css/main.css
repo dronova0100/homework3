@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2f2f2f;
+    font-family: Georgia;
+    font-size: 19px;
+    line-height: 27px;
+    color: #201e1e;
+}
+nav{
+    line-height: 30px;
+    padding: 30px;
+}
+
+a{
+    color: #201e1e;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: #0000cd;
+}
+
+.wrapper{
+    width: 900px;
+    background-color: #bfbfc0;
+    margin: 30px auto;
+    padding: 22px;
+}
+
+#text{
+    text-transform: capitalize;
+}
+
+.wrapper img{
+    width: 100%;
+}
+
+.wrapper p{
+    margin: 30px 0;
+}
+
+.text{
+    text-transform: uppercase;
+}
+
+.wrapperOne{
+    background-color: #dcdcdc;
+}
